@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Karla:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Oswald:wght@200;400&display=swap');
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+#icon{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.logo img {
+    display: flex;
+    align-items: center;
+    height: 90px;
+
+}
+
+#intro {
+    text-align: right;
+    background-image: url("imagenes/como-llevar-tenis-forum-adidas-originals.webp");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 1000px;
+    color: white;
+    font-style: italic;
+    
+}
+
+#primerTexto {
+    margin-right: 5%;
+    padding-top: 15%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-fill-color: rgb(253, 253, 253);
+    -webkit-text-stroke: 1px black;
+    margin-left: 400px;
+    
+}
+
+nav div{
+    padding-right: 100px;
+    font-size: 0.9cm;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    color:antiquewhite;
+    
+}
+
+#Titulos{
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #03afff;
+    transition: transform 0.3s ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+}
+
+.item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+
+.contenedorItems {
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-auto-rows: minmax(50%, auto);
+
+}
+
+#wideimg {
+    grid-column: span 2;
+
+}
+
+#abajo {
+    grid-row: span 2;
+}
+
+.contenedorFotos {
+    align-items: center;
+    height: auto;
+}
+
+
+.contenedorFotos div img {
+    height: 150px;
+    width: 150px;
+}
+
+.contenedorFotos div {
+    display: flex;
+    background-color: rgb(33, 180, 177);
+}
+
+
+#prueba {
+    display: list-item;
+}
+
+.contenedorFotos input {
+    margin-left: 450px;
+    width: 50px;
+}
+
+.tabla td{
+    border: 1px solid;
+    width: 100px;
+    
+}
+
+#trUno{
+    background-color:white;
+    color: black;
+}
+
+#trDos{
+    background-color: black;
+    color: white;
+}
+#columnaZapas img{
+    height: 250px;
+    width: 250px;
+}
+
+#columnaZapas{
+    display:flex;
+    padding-left: 7%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50em;
+    box-sizing: border-box;
+    height: 350px;
+}
+
+#columnaZapas p{
+    padding-top: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    -webkit-text-stroke: 1px black;
+    font-size: 24px;
+
+}
+
+#columnaZapas a{
+    margin-top: 120px  ;
+    border-style: dashed;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-style: solid;
+    border-radius: 20px;
+    border-color:#0385c2;
+    color: antiquewhite;
+    border-radius: 5px ;
+    -webkit-text-stroke: 1px black;
+    font-size: 20px;
+    
+}
+
+#columnaZapas h5{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-fill-color: yellowgreen;
+    -webkit-text-stroke: 1px black;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+#fondoZapas{
+    background-image: url(imagenes/fondo.jpg);
+    height: 700px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#seccionGrande{
+    display:flex;
+    width: 50em;
+    box-sizing: border-box;
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    background-image:url(imagenes/49-499157_adidas-logo-black-and-white-hd-wallpaper-wallpaper.jpg);
+    background-size:cover;
+    background-position-y: center;
+    
+}
+
+#imagenDireccion{
+    height: 50%;
+    width: 70%;
+    margin-bottom: 20px;
+    
+}
+
+.formulario{
+
+    width: 200px;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    
+    
+}
+
+.seccionDerecha{
+    margin-top: 30px;
+    width: 50%;
+
+}
+.seccionIzquierda{
+    padding-left: 10%;
+    width: 70%;
+
+}
+
+table{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 550px;
+    height: 250px;
+
+}
+
+#lista{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px black;
+    font-style: italic;
+    
+}
+
+#h2Bot{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px black;
+    font-style: italic;
+}
+
+#btnIngresar{
+    background-color: rgb(250, 250, 250);
+
+    -webkit-text-stroke: 1px black;
+}
+
+#bottom{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+
+}
+
+.formulario input{
+    background: #414040;
+}
+
+#h2Bot{
+    margin-left: 20px;
+}
+
